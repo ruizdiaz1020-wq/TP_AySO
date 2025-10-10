@@ -1,0 +1,392 @@
+ls
+ls -l
+cat RE
+cat README
+cat << FIN
+linea 1 
+linea 2
+linea 3
+linea3
+FIN
+
+cat << FIN
+FIN
+
+cat<< FIN > clase3.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+ls
+cat clase3.txt
+cat << FIN >> clase3.txt
+linea 4
+linea 5
+linea 6
+FIN
+
+ls
+cat clase3.txt
+man bc
+bc <<< 5+6
+echo "hola mundo" | wc
+cat clase3.txt | wc
+tail -n2 clase3.txt
+cat clase3.txt | head -n3 | grep linea
+cd /
+ls
+cd proc/
+ls
+cat cpuinfo
+grep -i core cpuinfo
+nproc
+cd
+pwd
+ls
+mkdir clases
+ls
+ls -l
+mv clases3.txt clases
+mv clase3.txt clases
+ls
+cd clases/
+ls
+mv clase3.txt clase4.txt
+cat clase4.txt
+cp clase4.txt ..
+ls
+cd ..
+ls
+cat clase4.txt
+man cat
+rm clase4.txt 
+ls
+mkdir clases2
+ls
+cp clases clases2
+cp -r clases clases2
+cd clases 2
+cd clases2
+ls
+cd clases
+ls
+cd ../..
+rm -r clases2
+ls
+cd /
+ls
+cd var
+ls
+cd log/
+ls
+tail -f dmesg
+sudo tail -d dmesg
+sudo tail -f dmesg
+d
+pww
+exit
+vim clase2.txt
+cat clase2.txt
+vagrant exit
+exit
+history
+ssh-keygen
+pwd
+ls -la
+cd .ssh
+ls -la
+cat.id_rsa.pub
+cat id_rsa.pub
+pwd
+ls -la
+cat id_rsa.pub
+cd /
+pwdls,s,s,s,slslsllllasididididididsdafcd       ///w
+exit
+sudo apt install git
+git --version
+git clone git@github.com:ruizdiaz1020-wq/-C1--02-Arquitectura-y-Sistemas-Operativos-Gonzalo-Facundo-Ruiz-Diaz.git
+cd README -C1--02-Arquitectura-y-Sistemas-Operativos-Gonzalo-Facundo-Ruiz-Di
+cd README Arquitectura-Ruiz-Diaz
+cd README -C1--02-Arquitectura-y-Sistemas-Operativos-Gonzalo-Facundo-Ruiz-Di
+az/
+cd README Arquitectura-Ruiz-Diaz/
+git status
+ls
+cp -C1--02-Arquitectura-y-Sistemas-Operativos-Gonzalo-Facundo-Ruiz-Diaz/
+cd -C1--02-Arquitectura-y-Sistemas-Operativos-Gonzalo-Facundo-Ruiz-Diaz
+git clone https://github.com/ruizdiaz1020-wq/arquitecturaRuizDiaz.git
+ls
+cp README  arquitecturaRuizDiaz/
+cd  arquitecturaRuizDiaz/
+ls -la
+git status
+git add README2
+git add README
+git status
+git commit -m "primer archivo"
+sudo git commit -m "primer archivo"
+sudo git push origin main
+git commit -m "primer archivo."
+git push origin main
+git status
+git push
+git commit -m "primer archivo"
+git config --global user.email "ruizdiaz1020@gmail.com"
+git conif --global user.name "gonza"
+git config --global user.name "gonza"
+git commit -m "primer archivo"
+sudo git commit -m "primer archivo"
+git push origin main
+git push -u origin main
+cd /
+pwd
+cd /
+pwd
+cd .
+pwd
+exit
+pwd
+cd home
+cd home/
+cd /home
+pwd
+ls
+cd ./
+cd /
+pwd
+exit
+ls
+cd arquitecturaRuizDiaz/
+ls
+git status
+exit
+pwd
+ls
+git clone git@github.com:ruizdiaz1020-wq/TP_AySO.git
+ls
+cd TP_AySO
+cd man
+help cd
+exit
+ls
+cd TP_AySO
+man grep
+cat /etc/mtab
+grep SYSFS /etc/mtab
+cat /etc/mtab | grep SYSFS
+cd /
+cat /etc/mtab
+grep SYSFS /etc/mtab
+cat /etc/mtab | grep SYSFS
+ls
+cd etc
+ls
+cd mtab
+cat mtab
+grep -i Sysfs /etc/mtab
+cd
+pwd
+ls
+cd TP_AySO
+git status
+grep -i Sysfs /etc/mtab
+ls
+grep -i Sysfs /etc/mtab > datos_sys.txt
+ls
+cat datos_sys.txt
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+cat datos_usuario.txt
+git add .
+git config --globa user.email "ruizdiaz1020@gmail.com"
+git config --global user.name "ruizdiaz1020-wq"
+git commit -m "ADD: agregado 1er y 2do ejercicio sobre datos_sys.txt y datos_usuario.txt"
+git status
+git push
+cat /etc/passwd
+grep vagrant /etc/passwd | awk -f: '{ print $5, $6 }'
+ls
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo informacion del Usuario"
+git status
+git push
+ls
+cat README.md
+cat << FIN >> README.md
+Alumno: <Gonzalo Facundo Ruiz Diaz>
+Division: <116>
+Turno: <mañana>
+FIN
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+exit
+pwd
+ls
+cd TP_AySO
+ls
+cat README.md
+git status
+vim README.md
+cat README.md
+git add .
+git commit -m "ADD: error arreglado de datos_usuario.txt donde no se veia el nombre"
+git push
+cat README.md
+vim README.md
+git add .
+git commit -m "ADD:arreglado error en el que no se mostraba el nombre del alumno en README.md"
+git push
+cd
+pwd
+mkdit -p TP1/ arquitectura/clase{1 .. 5}, so/clase{1..5}
+ls
+cd TP1
+tree .
+sudo apt update&&install tree
+tree .
+sudo apt install tree
+tree .
+ls
+cd
+ls
+TP_AySO
+cd TP_AySO
+tree.
+ls
+cd
+cd TP1
+ls
+cd
+rm TP1
+rm -r TP1
+ls
+mkdir -p tp1/{arquitectura/clase{1..5},so/clase{1..6}}
+ls
+cd tp1
+ls
+cd arquitectura
+ls
+cd ..
+ls
+cd so
+ls
+cd
+vim bash.sh
+ls
+./bash.sh
+vim bash.sh
+sudo chmod u+x bash.sh
+./bash.sh
+ls
+cd tpejemplo
+ls
+cd
+history
+ls
+cd TP_AySO
+ls
+vim script_dir.sh
+ls
+sudo chmod u+x script_dir.sh
+ls
+ls -l
+git add .
+git commit -m "ADD:añadiendo script"
+git push
+history -a
+history
+cp ~/.bash_history ./Historial_comandos_RuizDiaz.txt
+ls
+cat Historial_comandos_RuizDiaz.txt
+git add .
+git commit -m "ADD:Historial de comandos de Ruiz Diaz"
+git push
+cd
+ls
+cd TP_AySO
+git remote -v
+git remote set-url origin https://github.com/ruizdiaz1020-wq/TP_practica.git
+git remote -v
+git push
+cd
+mv TP_AySO TP_practica
+ls
+TP_practica
+cd TP_practica
+ls
+cd
+ls
+cd repogit
+git clone git@github.com:ruizdiaz1020-wq/TP_AySO.git
+ls
+cd TP_AySO
+pwd
+ls -l
+grep -i Sysfs /etc/mtab > datos_sys.txt
+ls
+cat datos_sys.txt
+ls
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt
+git add .
+git config --global user.email "ruizdiaz1020@gmail.com"
+git config --global user.name "ruizdiaz1020-wq"
+git commit -m "ADD:agregado 1er y 2do ejercicio sobre datos_sys.txt y datos_usuario.txt"
+git status
+git push
+ls
+grep vagrant /etc/passwd | awk -f: '{ print $5, $6 }' >> datos_usuario.txt
+grep vagrant /etc/passwd | awk -F: '{ print $5, $6 }'
+ls
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo informacion del Usuario"
+cat ls
+ls
+cat README.md
+ls
+cat << FIN >> README.md
+Alumno: "Gonzalo-Facundo-Ruiz-Diaz"
+Division: "116"
+Turno: "mañana"
+FIN
+
+ls
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo README y datos de usuario"
+git push
+cd
+mkdir -p tp1/{arquitectura/clase{1..5},so/clase{1..6}}
+ls
+cd tp1
+ls
+cd arquitectura
+ls
+cd
+cd tp1
+ls
+cd so
+ls
+cd
+cd repogit
+ls
+cd TP_AySO
+ls
+vim script_dir.sh
+ls
+sudo chmod u+x script_dir.sh
+ls
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
